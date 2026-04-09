@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#6366f1", // Indigo 500
-        secondary: "#10b981", // Emerald 500
-        dark: "#0f172a", // Slate 900
-        light: "#f8fafc", // Slate 50
+        primary: "#8b5cf6",
+        secondary: "#f43f5e",
+        dark: "#060608",
+        surface: "#101016",
+        light: "#fafafa",
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Outfit', 'sans-serif'],
       }
     },
   },
