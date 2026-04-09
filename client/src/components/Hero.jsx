@@ -43,7 +43,7 @@ const Hero = () => {
             className="relative w-72 h-72 lg:w-[450px] lg:h-[450px] cursor-pointer group"
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-secondary opacity-30 blur-2xl group-hover:opacity-70 group-hover:blur-3xl transition-all duration-700"></div>
-            <img src="/profile.png" alt="Kanza Fayyaz Malik" className="relative z-10 w-full h-full object-cover rounded-full border border-white/20 shadow-2xl transition-all duration-500 group-hover:border-white/50 bg-surface/50 p-2" />
+            <img src="/profilee.jpeg" alt="Kanza Fayyaz Malik" className="relative z-10 w-full h-full object-cover rounded-full border border-white/20 shadow-2xl transition-all duration-500 group-hover:border-white/50 bg-surface/50 p-2" />
           </motion.div>
         </motion.div>
       </div>
