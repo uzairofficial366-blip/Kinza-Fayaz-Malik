@@ -19,7 +19,7 @@ const Testimonials = ({ testimonials }) => {
                transition={{ duration: 0.4 }}
                className="glass-panel p-8 md:p-10 rounded-2xl relative"
              >
-                <div className="text-6xl text-primary/20 absolute -top-4 -left-2 select-none pointer-events-none">"</div>
+                <div className="text-6xl text-primary/20 absolute -top-4 -left-2 select-none pointer-events-none">&ldquo;</div>
                 <p className="text-gray-300 italic mb-6 relative z-10 text-lg leading-relaxed">{test.feedback}</p>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-secondary"></div>

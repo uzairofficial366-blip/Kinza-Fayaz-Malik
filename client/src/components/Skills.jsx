@@ -11,7 +11,7 @@ const Skills = () => {
     <section id="services" className="py-24 border-t border-white/5 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-6">Skills & Expertise</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Skills &amp; Expertise</h2>
           <div className="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
         </motion.div>
         
