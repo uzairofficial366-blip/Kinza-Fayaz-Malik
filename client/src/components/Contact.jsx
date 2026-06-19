@@ -28,11 +28,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold text-white mb-6">Get In Touch</h2>
           <div className="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
           <p className="mt-6 text-gray-400 text-lg font-light">Have a project in mind or want to collaborate? Let's talk!</p>
-          <p className="mt-2 text-gray-400">Or email me directly at: <a href="mailto:example@gmail.com" className="text-primary font-medium hover:underline">example@gmail.com</a></p>
-        </motion.div>
-        
-        <motion.form 
-          initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+          <p className="mt-2 text-gray-400">Or email me directly at: <a href="mailto:kfmalack@outlook.com" className="text-primary font-medium hover:underline">kfmalack@outlook.com</a></p>
           onSubmit={handleContactSubmit} 
           className="space-y-6 glass-panel p-8 md:p-12 rounded-3xl"
         >
